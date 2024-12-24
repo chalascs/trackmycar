@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track My Car - Advanced Vehicle Tracking Solutions</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <style>
+        .gradient {
+            background: linear-gradient(90deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        .hero-pattern {
+            background-color: #1e3a8a;
+            background-image: url("/Users/chanchalashanaka/Downloads/main2.avif");
+        }
+        .image-overlay {
+            position: relative;
+        }
+        .image-overlay::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(30, 58, 138, 0.1), rgba(30, 58, 138, 0.3));
+            border-radius: 0.5rem;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 800,
+                once: true
+            });
+        });
+    </script>
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+   <!-- [Previous navigation code remains the same]-->
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-pattern min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2" data-aos="fade-right">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
+                        Advanced Vehicle Tracking Solutions
+                    </h1>
+                    <p class="text-blue-100 text-xl mb-8">
+                        Keep your fleet safe and efficient with real-time GPS tracking and advanced fleet management solutions.
+                    </p>
+                    <div class="flex space-x-4">
+                        <button class="bg-white text-blue-900 px-8 py-3 rounded-full hover:bg-blue-100 transition duration-300">
+                            Try Demo
+                        </button>
+                        <button class="border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-blue-900 transition duration-300">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-16">Why Choose Track My Car?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="/Users/chanchalashanaka/Downloads/1.jpg" alt="Real-time Tracking Interface" class="w-full h-48 object-cover rounded-lg mb-6" />
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Real-time Tracking</h3>
+                    <p class="text-gray-600">Monitor your vehicles 24/7 with our advanced GPS tracking system. Get instant alerts and location updates.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <img src="/Users/chanchalashanaka/Downloads/2.jpg" alt="Fleet Analytics Dashboard" class="w-full h-48 object-cover rounded-lg mb-6" />
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Fleet Analytics</h3>
+                    <p class="text-gray-600">Gain valuable insights into your fleet's performance with comprehensive analytics and reporting tools.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <img src="/Users/chanchalashanaka/Downloads/3.jpg" alt="Security Features" class="w-full h-48 object-cover rounded-lg mb-6" />
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Enhanced Security</h3>
+                    <p class="text-gray-600">Protect your vehicles with advanced security features including geo-fencing and instant theft alerts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Section: How It Works -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-16">How It Works</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center" data-aos="fade-up">
+                    <img src="/Users/chanchalashanaka/Downloads/install.jpg" alt="Install Device" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
+                    <h3 class="text-lg font-bold mb-2">Install Device</h3>
+                    <p class="text-gray-600">Quick and easy installation of our tracking device</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <img src="/Users/chanchalashanaka/Downloads/connect.jpg" alt="Connect App" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
+                    <h3 class="text-lg font-bold mb-2">Connect App</h3>
+                    <p class="text-gray-600">Download and connect to our mobile app</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <img src="/Users/chanchalashanaka/Downloads/track.jpg" alt="Track Real-time" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
+                    <h3 class="text-lg font-bold mb-2">Track Real-time</h3>
+                    <p class="text-gray-600">Monitor your vehicle in real-time</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                    <img src="/Users/chanchalashanaka/Downloads/insights.jpg" alt="Get Insights" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
+                    <h3 class="text-lg font-bold mb-2">Get Insights</h3>
+                    <p class="text-gray-600">Access detailed analytics and reports</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-16">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="/Users/chanchalashanaka/Downloads/duca.HEIC" alt="Client 1" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover" />
+                    <p class="text-gray-600 text-center italic mb-4">"Track My Car has revolutionized how we manage our delivery fleet. The real-time tracking and analytics are invaluable."</p>
+                    <h4 class="text-lg font-bold text-center">Dusan Todorovic</h4>
+                    <p class="text-gray-500 text-center">Logistics Manager</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <img src="/Users/chanchalashanaka/Downloads/sara.heic" alt="Client 2" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover" />
+                    <p class="text-gray-600 text-center italic mb-4">"The security features give us peace of mind. We can monitor our vehicles 24/7 and receive instant alerts."</p>
+                    <h4 class="text-lg font-bold text-center">Sarah Madapatha</h4>
+                    <p class="text-gray-500 text-center">Fleet Supervisor</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <img src="/Users/chanchalashanaka/Downloads/stef.heic" alt="Client 3" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover" />
+                    <p class="text-gray-600 text-center italic mb-4">"The analytics have helped us optimize routes and reduce fuel costs by 30%. Excellent ROI."</p>
+                    <h4 class="text-lg font-bold text-center">Stefen Joksic</h4>
+                    <p class="text-gray-500 text-center">Operations Director</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-blue-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <h2 class="text-3xl font-bold mb-6">Ready to Get Started?</h2>
+                    <p class="text-blue-100 mb-8">Contact us today to learn how Track My Car can help secure and optimize your vehicle fleet.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                            </svg>
+                            <span>+94 11 2345678</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 
